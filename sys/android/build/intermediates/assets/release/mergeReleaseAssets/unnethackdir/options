@@ -1,0 +1,20 @@
+
+    UnNetHack version 5.2.0
+
+Options compiled into this edition:
+
+    autopickup_exceptions, auto open doors, blackmarket level, color,
+    debug mode, dungeon map overview patch, Elbereth,
+    experience points on status line,
+    insurance files for recovering from crashes, Keystone Kops, log file,
+    menu colors via regular expressions, news file, pickup thrown objects,
+    redo command, rogue level, saddles and riding, screen clipping,
+    seduction, sinks, suspend command, terminal info library, tourists,
+    UTF-8 glyphs, walled mazes, zero-compressed save files,
+    save and bones files accepted from versions 5.2.0 through 5.2.0,
+    basic UnNetHack features.
+
+Supported windowing systems:
+
+    with a default of and.
+

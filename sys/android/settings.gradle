@@ -1,0 +1,24 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+
+  plugins {
+    id "com.android.application" version "9.0.0-rc01"
+  }
+}
+
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+  repositories {
+    mavenLocal()
+    maven { url = uri("https://jitpack.io") }
+    google()
+    mavenCentral()
+  }
+}
+includeBuild('../../../NetHack-Android/sys/forkfront')
+
+rootProject.name = 'UnNetHack-Android'

@@ -1,0 +1,29 @@
+<dependencies>
+  <compile
+      roots=":forkfront@@:lib::release,org.jetbrains.kotlin:kotlin-stdlib:2.2.10@jar,org.jetbrains:annotations:13.0@jar">
+    <dependency
+        name=":forkfront@@:lib::release"
+        simpleName="com.tbd.forkfront:lib"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:2.2.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+  </compile>
+  <package
+      roots=":forkfront@@:lib::release,org.jetbrains.kotlin:kotlin-stdlib:2.2.10@jar,org.jetbrains:annotations:13.0@jar,cz.msebera.android:httpclient:4.4.1.2@jar">
+    <dependency
+        name=":forkfront@@:lib::release"
+        simpleName="com.tbd.forkfront:lib"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:2.2.10@jar"
+        simpleName="org.jetbrains.kotlin:kotlin-stdlib"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"
+        simpleName="org.jetbrains:annotations"/>
+    <dependency
+        name="cz.msebera.android:httpclient:4.4.1.2@jar"
+        simpleName="cz.msebera.android:httpclient"/>
+  </package>
+</dependencies>

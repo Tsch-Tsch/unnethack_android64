@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tbd.UnNetHack"
+    android:installLocation="auto"
+    android:versionCode="5321"
+    android:versionName="5.3.2-1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="UnNetHack"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@android:style/Theme" >
+        <activity
+            android:name="com.tbd.forkfront.ForkFront"
+            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|fontScale"
+            android:exported="true"
+            android:label="UnNetHack"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+
+            <!-- Prevent activity from restarting when configuration changes -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tbd.forkfront.Settings"
+            android:label="UnNetHack Settings" >
+        </activity>
+    </application>
+
+</manifest>

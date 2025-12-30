@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tbd.UnNetHack"
+4    android:installLocation="auto"
+5    android:versionCode="5321"
+6    android:versionName="5.3.2-1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:6:2-7:61
+12-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:7:3-59
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:8:2-63
+13-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:8:19-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15
+16    <application
+16-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:10:2-36:16
+17        android:allowBackup="true"
+17-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:17:3-29
+18        android:extractNativeLibs="true"
+19        android:hardwareAccelerated="true"
+19-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:15:3-37
+20        android:icon="@drawable/icon"
+20-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:13:3-32
+21        android:label="UnNetHack"
+21-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:12:3-28
+22        android:largeHeap="true"
+22-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:14:3-27
+23        android:requestLegacyExternalStorage="true"
+23-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:11:9-52
+24        android:theme="@android:style/Theme" >
+24-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:16:3-39
+25        <activity
+25-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:18:3-31:14
+26            android:name="com.tbd.forkfront.ForkFront"
+26-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:19:4-46
+27            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|fontScale"
+27-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:23:4-131
+28            android:exported="true"
+28-->[:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-36
+29            android:label="UnNetHack"
+29-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:20:4-29
+30            android:launchMode="singleTask"
+30-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:22:4-35
+31            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+31-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:21:4-64
+32
+33            <!-- Prevent activity from restarting when configuration changes -->
+34            <intent-filter>
+34-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:25:4-30:20
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:26:5-27:49
+35-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:27:6-47
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:28:5-29:55
+37-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:29:6-53
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:32:3-35:14
+41            android:name="com.tbd.forkfront.Settings"
+41-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:33:4-45
+42            android:label="UnNetHack Settings" >
+42-->/home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:34:4-38
+43        </activity>
+44    </application>
+45
+46</manifest>

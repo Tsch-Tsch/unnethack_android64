@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:2:1-37:12
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:2:1-37:12
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:4:2-29
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:3:2-60
+	android:installLocation
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:5:2-32
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:6:2-7:61
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-81
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:7:3-59
+uses-permission#android.permission.INTERNET
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:8:2-63
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-67
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:8:19-61
+application
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:10:2-36:16
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:10:2-36:16
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-15:19
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-15:19
+	android:extractNativeLibs
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+	android:requestLegacyExternalStorage
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:11:9-52
+	android:label
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:12:3-28
+	android:hardwareAccelerated
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:15:3-37
+	android:largeHeap
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:14:3-27
+	android:icon
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:13:3-32
+	android:allowBackup
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:17:3-29
+	android:theme
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:16:3-39
+activity#com.tbd.forkfront.ForkFront
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:18:3-31:14
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:9-14:20
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:9-14:20
+	android:label
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:20:4-29
+	android:launchMode
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:22:4-35
+	android:exported
+		ADDED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-36
+	android:windowSoftInputMode
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:21:4-64
+	android:configChanges
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:23:4-131
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:19:4-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:25:4-30:20
+action#android.intent.action.MAIN
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:26:5-27:49
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:27:6-47
+category#android.intent.category.LAUNCHER
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:28:5-29:55
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:29:6-53
+activity#com.tbd.forkfront.Settings
+ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:32:3-35:14
+	android:label
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:34:4-38
+	android:name
+		ADDED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:33:4-45
+uses-sdk
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:forkfront:lib] /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/thomas/Downloads/UnNetHack-Android/sys/android/AndroidManifest.xml:2:1-37:12 reason: com.tbd.forkfront requested WRITE_EXTERNAL_STORAGE

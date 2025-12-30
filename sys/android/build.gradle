@@ -1,0 +1,65 @@
+plugins {
+  id 'com.android.application'
+}
+
+android {
+  namespace "com.tbd.UnNetHack"
+
+  // load keystore props
+  def keystorePropertiesFile = rootProject.file("keystore.properties")
+  def keystoreProperties = new Properties()
+  if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+  }
+
+  signingConfigs {
+    release {
+      if (keystorePropertiesFile.exists()) {
+        storeFile file(keystoreProperties['storeFile'])
+        storePassword keystoreProperties['storePassword']
+        keyAlias keystoreProperties['keyAlias']
+        keyPassword keystoreProperties['keyPassword']
+        v1SigningEnabled true
+        v2SigningEnabled true
+      }
+    }
+  }
+
+  compileSdk 34
+
+  defaultConfig {
+    minSdk 21
+    targetSdk 34
+    versionName '5.3.2-1'
+    versionCode 5321
+  }
+
+  buildTypes {
+    release {
+      signingConfig signingConfigs.release
+      minifyEnabled false
+    }
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+
+  lint {
+    disable 'MissingClass'
+  }
+
+  sourceSets {
+    main {
+      manifest.srcFile 'AndroidManifest.xml'
+      res.srcDirs = ['res']
+      assets.srcDirs = ['assets']
+      jniLibs.srcDirs = ['libs']
+    }
+  }
+}
+
+dependencies {
+  implementation 'com.tbd.forkfront:lib:1.1'
+}

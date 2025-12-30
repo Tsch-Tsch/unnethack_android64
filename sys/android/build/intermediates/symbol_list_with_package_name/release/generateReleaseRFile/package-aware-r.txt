@@ -1,0 +1,23 @@
+com.tbd.UnNetHack
+array tileNames
+array tileValues
+bool hearseAvailable
+bool hearseLittleEndian
+bool oldStatusMode
+bool useCP437Decoder
+drawable icon
+drawable overlays
+drawable unchozo_32
+drawable undawnhack_32
+drawable ungeoduck_12x20
+string credits
+string defaultCmdPanel
+string defaultsFile
+string hearseClientName
+string hearseNethackVersion
+string hearseRoles
+string libraryName
+string namespace
+string nativeDataDir
+string oldActivityName
+xml meta

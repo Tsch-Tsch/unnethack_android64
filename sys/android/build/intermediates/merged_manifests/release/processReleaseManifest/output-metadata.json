@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.tbd.UnNetHack",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 5321,
+      "versionName": "5.3.2-1",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ],
+  "elementType": "File"
+}

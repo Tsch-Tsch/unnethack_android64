@@ -1,0 +1,8 @@
+com.tbd.UnNetHack-release-0 /home/thomas/Downloads/NetHack-Android/sys/forkfront/lib/build/intermediates/packaged_res/release/packageReleaseResources
+com.tbd.UnNetHack-pngs-1 /home/thomas/Downloads/UnNetHack-Android/sys/android/build/generated/res/pngs/release
+com.tbd.UnNetHack-updated_navigation_xml-2 /home/thomas/Downloads/UnNetHack-Android/sys/android/build/generated/updated_navigation_xml/release
+com.tbd.UnNetHack-packageReleaseResources-3 /home/thomas/Downloads/UnNetHack-Android/sys/android/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.tbd.UnNetHack-packageReleaseResources-4 /home/thomas/Downloads/UnNetHack-Android/sys/android/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.tbd.UnNetHack-release-5 /home/thomas/Downloads/UnNetHack-Android/sys/android/build/intermediates/merged_res/release/mergeReleaseResources
+com.tbd.UnNetHack-android-6 /home/thomas/Downloads/UnNetHack-Android/sys/android/res
+com.tbd.UnNetHack-release-7 /home/thomas/Downloads/UnNetHack-Android/sys/android/src/release/res

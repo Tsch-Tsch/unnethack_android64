@@ -1,0 +1,76 @@
+( cd src ; make )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/src'
+Loading ...
+mkdir -p ../sys/android/libs/armeabi
+unnethack is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/src'
+( cd util ; make recover )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/util'
+make[2]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[2]: '../include/date.h' is up to date.
+make[2]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/util'
+( cd dat ; make data )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'data' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd dat ; make oracles )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'oracles' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd dat ; make options )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'options' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd dat ; make quest.dat )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'quest.dat' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd dat ; make rumors )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'rumors' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd util ; make lev_comp )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/util'
+make[2]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[2]: '../include/date.h' is up to date.
+make[2]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/util'
+( cd dat ; make spec_levs )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'spec_levs' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd dat ; make quest_levs )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'quest_levs' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+( cd util ; make dgn_comp )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/util'
+make[2]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[2]: '../include/date.h' is up to date.
+make[2]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/src'
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/util'
+( cd dat ; make dungeon )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+make[1]: 'dungeon' is up to date.
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android/dat'
+rm -rf /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir
+mkdir -p /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir/save
+rmdir ./-p
+rmdir: failed to remove './-p': No such file or directory
+make: [Makefile:248: install] Error 1 (ignored)
+( make dofiles )
+make[1]: Entering directory '/home/thomas/Downloads/UnNetHack-Android'
+target=`sed -n					\
+	-e '/librarian/{' 			\
+	-e	's/.*/dlb/p' 			\
+	-e	'q' 				\
+	-e '}' 					\
+  	-e '$s/.*/nodlb/p' < dat/options` ;	\
+make dofiles-${target-nodlb}
+make[2]: Entering directory '/home/thomas/Downloads/UnNetHack-Android'
+( cd dat ; cp  license help hh cmdhelp history opthelp wizhelp dungeon asmod-?.lev baalz-?.lev bigrm-*.lev blkmar-?.lev castle-?.lev fakewiz?.lev vlt-*.lev juiblex.lev knox-?.lev town*.lev medusa-?.lev minend-?.lev minefill.lev minetn-?.lev oracle.lev orcus-?.lev sanctum.lev soko?-*.lev hellfill.lev nymph.lev drgn?.lev tower?.lev valley-?.lev wizard?.lev heck-?-?.lev sheolfil.lev palace_f.lev palace_e.lev sheolmid.lev advcal.lev moria?-*.lev astral.lev air.lev earth.lev fire.lev water.lev ???-goal.lev ???-fil?.lev ???-loca.lev ???-strt.lev data oracles options quest.dat rumors vaults.dat /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir )
+make[2]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android'
+make[1]: Leaving directory '/home/thomas/Downloads/UnNetHack-Android'
+( cd /home/thomas/Downloads/UnNetHack-Android/sys/android/assets/unnethackdir ; cp ../../defaults.unh ./ ; \
+		cp ../../../../dat/unnethack_dump.css ./ )

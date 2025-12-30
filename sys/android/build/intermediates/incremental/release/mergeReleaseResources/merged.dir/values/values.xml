@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actionNames">
+		<item>System default</item>
+		<item>Zoom in</item>
+		<item>Zoom Out</item>
+		<item>Toggle keyboard</item>
+		<item>Ctrl</item>
+		<item>Meta</item>
+		<item>Escape</item>
+	</string-array>
+    <string-array name="actionValues">
+		<item>0</item>
+		<item>-1</item>
+		<item>-2</item>
+		<item>-3</item>
+		<item>-4</item>
+		<item>-5</item>
+		<item>111</item>
+	</string-array>
+    <string-array name="dirLocationNames">
+		<item>Left</item>
+		<item>Center</item>
+		<item>Right</item>
+		<item>Bottom left</item>
+		<item>Bottom center</item>
+		<item>Bottom right</item>
+	</string-array>
+    <string-array name="dirLocationValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+    <string-array name="locationNames">
+		<item>Left</item>
+		<item>Right</item>
+		<item>Top</item>
+		<item>Bottom</item>
+	</string-array>
+    <string-array name="locationValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="tileNames">
+    	<item>Ascii (no tiles)</item>
+        <item>Unchozo</item>
+        <item>UnDawnHack</item>
+        <item>Geoduck</item>
+    </string-array>
+    <string-array name="tileValues">
+        <item>TTY</item>
+        <item>unchozo_32</item>
+        <item>undawnhack_32</item>
+        <item>ungeoduck_12x20</item>
+    </string-array>
+    <string-array name="travelNames">
+		<item>Never</item>
+		<item>After map is panned</item>
+		<item>Always</item>
+	</string-array>
+    <string-array name="travelValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <bool name="hearseAvailable">true</bool>
+    <bool name="hearseLittleEndian">true</bool>
+    <bool name="oldStatusMode">true</bool>
+    <bool name="useCP437Decoder">false</bool>
+    <string name="credits">
+<![CDATA[
+
+<h1>UnNetHack Android Port</h1>
+<a href="https://github.com/gurrhack/UnNetHack-Android">Project Home</a><br/>
+<p>Based on UnNetHack 5.1.0<br/>
+<a href="http://unnethack.wordpress.com/">http://unnethack.wordpress.com/</a></p>
+
+<p><br/><br/><h2>Hearse Implementation</h2>
+<i>by Ranbato</i><br/>
+<a href="https://github.com/Ranbato">https://github.com/Ranbato</a></p>
+
+<p><br/><br/><h2>DragonDePlatino\'s tileset</h2>
+<i>by Andrew Rios</i><br/>
+<a href="http://dragondeplatino.daportfolio.com/about/">http://dragondeplatino.daportfolio.com/about/</a></p>
+
+<p><br/><br/><h2>Geoduck\'s tileset</h2>
+<i>by Robert M. Cook</i><br/>
+<a href="http://www.geoduckthings.net/nhack/nhack.html">http://www.geoduckthings.net/nhack/nhack.html</a></p>
+
+<p><br/><br/><h2>Unchozo Tiles</h2>
+<i>based on Abigaba Tiles by James Hogwood</i><br/>
+<i>modified by Kelly Bailey and Patric Mueller</i><br/>
+<a href="https://web.archive.org/web/20121029092206/http://www.multifoliate.com/nh/">http://www.multifoliate.com/nh</a></p>
+
+<p><br/></p>
+]]>
+	</string>
+    <string name="defaultCmdPanel">menu ... # v 20s . : ; , d e r z Z q t f w x i E Q P R W T o ^d ^p a A ^t D F p ^x ^o ?</string>
+    <string name="defaultsFile">defaults.unh</string>
+    <string name="hearseClientName">Gurr Android UnNethack 1.0.1</string>
+    <string name="hearseNethackVersion">56</string>
+    <string name="hearseRoles">Arc|Bar|Cav|Con|Hea|Kni|Mon|Pri|Rog|Ran|Sam|Tou|Val|Wiz</string>
+    <string name="libraryName">unnethack</string>
+    <string name="namespace">com.tbd.UnNetHack</string>
+    <string name="nativeDataDir">unnethackdir</string>
+    <string name="oldActivityName">UnNetHack</string>
+    <style name="ButtonText" parent="@android:style/TextAppearance.Widget.Button">
+	
+		<item name="android:ellipsize">end</item>
+		<item name="android:lines">1</item>
+		<item name="android:scrollHorizontally">true</item> 
+	</style>
+    <style name="DialogText" parent="@android:style/TextAppearance.Theme.Dialog">
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">16sp</item>
+    </style>
+    <style name="DialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">18sp</item>
+    </style>
+    <style name="InputText" parent="@android:style/TextAppearance.Widget.EditText">
+	
+    </style>
+    <style name="ListText1" parent="@android:style/TextAppearance.Medium">
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">16sp</item>
+    </style>
+    <style name="ListText2" parent="@android:style/TextAppearance.Medium">
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NH_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:drawable/alert_dark_frame</item>
+	</style>
+    <style name="WindowText" parent="@android:style/TextAppearance.Medium">
+		<item name="android:typeface">monospace</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="dPadBtn" parent="@android:style/Widget.Button">
+		<item name="android:typeface">monospace</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">none</item>
+		<item name="android:layout_width">50dip</item>
+		<item name="android:layout_height">50dip</item>
+		<item name="android:gravity">center</item>
+	</style>
+</resources>

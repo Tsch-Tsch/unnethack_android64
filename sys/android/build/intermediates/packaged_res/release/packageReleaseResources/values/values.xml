@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tileNames">
+    	<item>Ascii (no tiles)</item>
+        <item>Unchozo</item>
+        <item>UnDawnHack</item>
+        <item>Geoduck</item>
+    </string-array>
+    <string-array name="tileValues">
+        <item>TTY</item>
+        <item>unchozo_32</item>
+        <item>undawnhack_32</item>
+        <item>ungeoduck_12x20</item>
+    </string-array>
+    <bool name="hearseAvailable">true</bool>
+    <bool name="hearseLittleEndian">true</bool>
+    <bool name="oldStatusMode">true</bool>
+    <bool name="useCP437Decoder">false</bool>
+    <string name="credits">
+<![CDATA[
+
+<h1>UnNetHack Android Port</h1>
+<a href="https://github.com/gurrhack/UnNetHack-Android">Project Home</a><br/>
+<p>Based on UnNetHack 5.1.0<br/>
+<a href="http://unnethack.wordpress.com/">http://unnethack.wordpress.com/</a></p>
+
+<p><br/><br/><h2>Hearse Implementation</h2>
+<i>by Ranbato</i><br/>
+<a href="https://github.com/Ranbato">https://github.com/Ranbato</a></p>
+
+<p><br/><br/><h2>DragonDePlatino\'s tileset</h2>
+<i>by Andrew Rios</i><br/>
+<a href="http://dragondeplatino.daportfolio.com/about/">http://dragondeplatino.daportfolio.com/about/</a></p>
+
+<p><br/><br/><h2>Geoduck\'s tileset</h2>
+<i>by Robert M. Cook</i><br/>
+<a href="http://www.geoduckthings.net/nhack/nhack.html">http://www.geoduckthings.net/nhack/nhack.html</a></p>
+
+<p><br/><br/><h2>Unchozo Tiles</h2>
+<i>based on Abigaba Tiles by James Hogwood</i><br/>
+<i>modified by Kelly Bailey and Patric Mueller</i><br/>
+<a href="https://web.archive.org/web/20121029092206/http://www.multifoliate.com/nh/">http://www.multifoliate.com/nh</a></p>
+
+<p><br/></p>
+]]>
+	</string>
+    <string name="defaultCmdPanel">menu ... # v 20s . : ; , d e r z Z q t f w x i E Q P R W T o ^d ^p a A ^t D F p ^x ^o ?</string>
+    <string name="defaultsFile">defaults.unh</string>
+    <string name="hearseClientName">Gurr Android UnNethack 1.0.1</string>
+    <string name="hearseNethackVersion">56</string>
+    <string name="hearseRoles">Arc|Bar|Cav|Con|Hea|Kni|Mon|Pri|Rog|Ran|Sam|Tou|Val|Wiz</string>
+    <string name="libraryName">unnethack</string>
+    <string name="namespace">com.tbd.UnNetHack</string>
+    <string name="nativeDataDir">unnethackdir</string>
+    <string name="oldActivityName">UnNetHack</string>
+</resources>
